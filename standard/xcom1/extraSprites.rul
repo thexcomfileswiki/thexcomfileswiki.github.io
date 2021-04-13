@@ -1,4 +1,23 @@
 extraSprites:
+  - type: Touch
+    width: 64
+    height: 120
+    subX: 32
+    subY: 24
+    files:
+      0: Resources/Extended/Touch/Touch_UFOEU.png
+  - type: oxceLinks
+    width: 32
+    height: 16
+    singleImage: true
+    files:
+      0: Resources/Extended/oxceLinks.png
+  - type: oxceLinksInv
+    width: 23
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/Extended/oxceLinksInv.png
   - type: TinyRanks
     width: 42
     height: 7
@@ -82,26 +101,26 @@ extraSprites:
     files:
       0: Resources/UI/kneelButton.png
   - type: InvCopy
-    width: 16
-    height: 16
+    width: 32
+    height: 22
     singleImage: true
     files:
       0: Resources/UI/invcopy.png
   - type: InvCopyActive
-    width: 16
-    height: 16
+    width: 32
+    height: 22
     singleImage: true
     files:
       0: Resources/UI/invcopy_active.png
   - type: InvPaste
-    width: 16
-    height: 16
+    width: 32
+    height: 22
     singleImage: true
     files:
       0: Resources/UI/invpaste.png
   - type: InvPasteEmpty
-    width: 16
-    height: 16
+    width: 32
+    height: 22
     singleImage: true
     files:
       0: Resources/UI/invpaste_empty.png

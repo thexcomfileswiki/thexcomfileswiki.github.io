@@ -48,57 +48,57 @@
       - name: UBASE_00
         width: 20
         length: 20
-        items:
-          STR_ALIEN_DATA_SLATE:
-            - [6, 6, 1]
-          STR_ALENIUM_SHARD:
-            - [13, 13, 1]
         groups: 3
+        randomizedItems:
+            - position: [6, 6, 1]
+              amount: 1
+              mixed: true
+              itemList: [STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALENIUM_SHARD]
       - name: UBASE_00b
         width: 20
         length: 20
-        items:
-          STR_ALIEN_DATA_SLATE:
-            - [6, 6, 1]
-          STR_ALENIUM_SHARD:
-            - [13, 13, 1]
         groups: 3
+        randomizedItems:
+            - position: [13, 13, 1]
+              amount: 1
+              mixed: true
+              itemList: [STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALENIUM_SHARD]
       - name: UBASE_00c
         width: 20
         length: 20
         groups: 3
-        items:
-          STR_ALIEN_DATA_SLATE:
-            - [12, 6, 1]
-          STR_ALENIUM_SHARD:
-            - [6, 12, 1]
+        randomizedItems:
+            - position: [12, 6, 1]
+              amount: 1
+              mixed: true
+              itemList: [STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALENIUM_SHARD]
       - name: UBASE_00d
         width: 20
         length: 20
         groups: 3
-        items:
-          STR_ALIEN_DATA_SLATE:
-            - [10, 17, 1]
-          STR_ALENIUM_SHARD:
-            - [7, 1, 1]
+        randomizedItems:
+            - position: [7, 1, 1]
+              amount: 1
+              mixed: true
+              itemList: [STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALENIUM_SHARD]
       - name: UBASE_00e
         width: 20
         length: 20
         groups: 3
-        items:
-          STR_ALIEN_DATA_SLATE:
-            - [5, 5, 1]
-          STR_ALENIUM_SHARD:
-            - [5, 13, 1]
+        randomizedItems:
+            - position: [5, 13, 1]
+              amount: 1
+              mixed: true
+              itemList: [STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALENIUM_SHARD]
       - name: UBASE_CIV_00
         width: 20
         length: 20
         groups: 3
-        items:
-          STR_ALIEN_DATA_SLATE:
-            - [5, 5, 1]
-          STR_ALENIUM_SHARD:
-            - [13, 5, 1]
+        randomizedItems:
+            - position: [5, 5, 1]
+              amount: 1
+              mixed: true
+              itemList: [STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALENIUM_SHARD]
       - name: UBASE_01
         width: 20
         length: 20
@@ -279,11 +279,11 @@
         width: 20
         length: 20
         groups: 3
-        items:
-          STR_ALIEN_DATA_SLATE:
-            - [6, 16, 1]
-          STR_ALENIUM_SHARD:
-            - [7, 16, 1]
+        randomizedItems:
+            - position: [6, 16, 1]
+              amount: 1
+              mixed: true
+              itemList: [STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALENIUM_SHARD]
       - name: UBASE_17
         width: 10
         length: 10
@@ -294,29 +294,29 @@
         width: 20
         length: 20
         groups: 3
-        items:
-          STR_ALIEN_DATA_SLATE:
-            - [13, 5, 1]
-          STR_ALENIUM_SHARD:
-            - [13, 13, 1]
+        randomizedItems:
+            - position: [13, 5, 1]
+              amount: 1
+              mixed: true
+              itemList: [STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALENIUM_SHARD]
       - name: UBASE_19
         width: 20
         length: 20
         groups: 3
-        items:
-          STR_ALIEN_DATA_SLATE:
-            - [13, 5, 1]
-          STR_ALENIUM_SHARD:
-            - [13, 13, 1]
+        randomizedItems:
+            - position: [13, 13, 1]
+              amount: 1
+              mixed: true
+              itemList: [STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALENIUM_SHARD]
       - name: UBASE_20
         width: 20
         length: 20
         groups: 3
-        items:
-          STR_ALIEN_DATA_SLATE:
-            - [12, 12, 1]
-          STR_ALENIUM_SHARD:
-            - [13, 13, 1]
+        randomizedItems:
+            - position: [12, 12, 1]
+              amount: 1
+              mixed: true
+              itemList: [STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALENIUM_SHARD]
       - name: UBASE_21
         width: 20
         length: 20
@@ -392,8 +392,11 @@
           STR_ELERIUM_115:
             - [15, 9, 1]
             - [3, 9, 1]
-          STR_ALENIUM_SHARD:
-            - [7, 11, 1]
+        randomizedItems:
+            - position: [7, 11, 1]
+              amount: 1
+              mixed: true
+              itemList: [STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALIEN_DATA_SLATE, STR_ALENIUM_SHARD]
       - name: UBASE_42
         width: 10
         length: 10
@@ -492,6 +495,18 @@
       - name: UBASE_SOL_06 # holostation
         width: 10
         length: 10
+      - name: UBASE_SOL_07 # small control room
+        width: 10
+        length: 10
+      - name: UBASE_SOL_08 # small engineering room
+        width: 10
+        length: 10
+      - name: UBASE_SOL_09 # mess hall?
+        width: 20
+        length: 20
+      - name: UBASE_SOL_10 # brain node room
+        width: 20
+        length: 20
       - name: UBASE_FILL_20x20
         width: 20
         length: 20
@@ -566,7 +581,7 @@
         fuseTimers:
           STR_SPAWN_ETHEREAL_KEEPER: [0, 0]
           STR_SPAWN_ALIEN_BRAIN: [0, 0]
-      - name: CEREBRAL_CHAMBER_2 
+      - name: CEREBRAL_CHAMBER_2
         width: 20
         length: 20
         groups: 12 #big base control centre (brain) high enter
@@ -594,7 +609,7 @@
       - name: ENTER_CHAMBER_02
         width: 10
         length: 10
-        groups: 8 #big base enter   
+        groups: 8 #big base enter
       - name: HANGAR_UPPER_CHAMBER_0
         width: 20
         length: 20
@@ -3259,6 +3274,18 @@
         width: 10
         length: 10
         groups: 1
+      - name: JUNGLE_ROAD_WE00 # W-E
+        width: 10
+        length: 10
+        groups: 2
+      - name: JUNGLE_ROAD_SN00 # N-S
+        width: 10
+        length: 10
+        groups: 3
+      - name: JUNGLE_ROAD_XX00 # Crossroads
+        width: 10
+        length: 10
+        groups: 4
   - name: MOUNT
     mapDataSets:
       - BLANKS
@@ -3511,11 +3538,11 @@
       - name: PLAINS00
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: PLAINS01
         width: 10
         length: 10
-        groups: 1
+        groups: [0, 1]
       - name: PLAINS02
         width: 10
         length: 10
@@ -3882,6 +3909,7 @@
       - A_FRN
       - A_EXT02
       - A_BITS
+      - A_FLOOR
     mapBlocks: *AnchorAlienBase
   - name: GREENBASE
     mapDataSets:
@@ -3894,6 +3922,7 @@
       - CHTONITE_FRN
       - CHTONITE_EXT02
       - CHTONITE_BITS
+      - U_FLOOR
     mapBlocks: *AnchorAlienBase
   - name: GOLDBASE
     mapDataSets:
@@ -4202,6 +4231,18 @@
       - name: UBASE_SOL_02
         width: 20
         length: 20
+      - name: UBASE_SOL_07 # small control room
+        width: 10
+        length: 10
+      - name: UBASE_SOL_08 # small engineering room
+        width: 10
+        length: 10
+      - name: UBASE_SOL_09 # mess hall?
+        width: 20
+        length: 20
+      - name: UBASE_SOL_10 # brain node room
+        width: 20
+        length: 20
       - name: UBASE_FILL_20x20
         width: 20
         length: 20
@@ -4210,6 +4251,42 @@
         width: 10
         length: 10
         groups: 6
+      - name: CONNECTING_CHAMBER_00
+        width: 10
+        length: 10
+        groups: 13 # big base connectors
+      - name: CONNECTING_CHAMBER_01
+        width: 10
+        length: 10
+        groups: 13 # big base connectors
+      - name: CONNECTING_CHAMBER_02
+        width: 10
+        length: 10
+        groups: 13 # big base connectors
+      - name: CONNECTING_CHAMBER_03
+        width: 10
+        length: 10
+        groups: 13 # big base connectors
+      - name: CONNECTING_CHAMBER_04
+        width: 10
+        length: 10
+        groups: 13 #big base connectors
+      - name: ENTER_CHAMBER_00
+        width: 10
+        length: 10
+        groups: 8 #big base enter
+      - name: ENTER_CHAMBER_01
+        width: 10
+        length: 10
+        groups: 8 #big base enter
+      - name: ENTER_CHAMBER_02
+        width: 10
+        length: 10
+        groups: 8 #big base enter   
+      - name: UBASE_DESCENT_LIFT
+        width: 10
+        length: 10
+        groups: 9 # exit
   - name: REPTOID_BASE
     mapDataSets:
       - BLANKS
@@ -4223,6 +4300,19 @@
       - REP_BITS
       - REP_FLOOR
     mapBlocks: *AnchorAlienBaseEmpty
+  - name: UAC_BASE
+    mapDataSets:
+      - BLANKS
+      - UAC_BASE
+      - UAC_WALL02
+      - UAC_PODS
+      - BRAIN
+      - UAC_BASE2
+      - UAC_FRN
+      - A_EXT02
+      - UAC_BITS
+      - A_FLOOR
+    mapBlocks: *AnchorAlienBaseEmpty
   - name: SHOGG_CAVE_SETTLEMENT
     mapDataSets:
       - BLANKS
@@ -4235,6 +4325,17 @@
       - REP_EXT02
       - REP_BITS
       - REP_FLOOR
+#    mapDataSets:
+#      - BLANKS
+#      - UAC_BASE
+#      - UAC_WALL02
+#      - UAC_PODS
+#      - DOOM_BRAIN
+#      - UAC_BASE2
+#      - UAC_FRN
+#      - A_EXT02
+#      - UAC_BITS
+#      - A_FLOOR
 #    mapDataSets:
 #      - BLANKS
 #      - DOOM_BASE
@@ -4418,7 +4519,7 @@
       - SHOGG_VILLAGE_WALL02
       - SHOGG_VILLAGE_PODS
       - MUMMY_RUINS
-    mapBlocks:
+    mapBlocks: &CaveRuins
       - name: MUM_VILLAGE_N00
         width: 20
         length: 10
@@ -4468,6 +4569,10 @@
         length: 10
         groups: 4
       - name: MUM_VILLAGE_W_SHORT02
+        width: 10
+        length: 10
+        groups: 4
+      - name: MUM_VILLAGE_W_SHORT03
         width: 10
         length: 10
         groups: 4
@@ -4559,6 +4664,10 @@
         width: 10
         length: 10
         groups: 0
+      - name: MUM_VILLAGE_MIDDLE14
+        width: 10
+        length: 10
+        groups: 0
       - name: MUM_VILLAGE_MIDDLE_BIG00
         width: 20
         length: 20
@@ -4575,6 +4684,168 @@
         width: 20
         length: 20
         groups: 0
+  - name: UAC_MOON_CAVE_LAB
+    mapDataSets:
+      - BLANKS
+      - UAC_MOON_CAVE
+      - UAC_WALL02
+      - UAC_PODS
+      - UAC_DECOR
+    mapBlocks:
+      - name: MUM_VILLAGE_E00
+        width: 10
+        length: 20
+        groups: 2
+      - name: MUM_VILLAGE_E_SHORT00
+        width: 10
+        length: 10
+        groups: 2
+      - name: MUM_VILLAGE_MIDDLE00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MUM_VILLAGE_MIDDLE01
+        width: 10
+        length: 10
+        groups: 0
+      - name: MUM_VILLAGE_MIDDLE02
+        width: 10
+        length: 10
+        groups: 0
+      - name: UAC_CAVE_MIDDLE_03
+        width: 10
+        length: 10
+        groups: 0
+      - name: UAC_CAVE_MIDDLE_04
+        width: 10
+        length: 10
+        groups: 0
+      - name: UAC_CAVE_MIDDLE_05
+        width: 10
+        length: 10
+        groups: 0
+      - name: UAC_CAVE_MIDDLE_06
+        width: 10
+        length: 10
+        groups: 0
+      - name: MUM_VILLAGE_MIDDLE11
+        width: 10
+        length: 10
+        groups: 0
+      - name: MUM_VILLAGE_MIDDLE14
+        width: 10
+        length: 10
+        groups: 0
+      - name: MUM_VILLAGE_MIDDLE_BIG00
+        width: 20
+        length: 20
+        groups: 0
+      - name: MUM_VILLAGE_MIDDLE_BIG01
+        width: 20
+        length: 20
+        groups: 0
+      - name: UAC_CAVE_MIDDLE_BIG03
+        width: 20
+        length: 20
+        groups: 0
+      - name: MUM_VILLAGE_N00
+        width: 20
+        length: 10
+        groups: 1
+      - name: MUM_VILLAGE_NE00
+        width: 10
+        length: 10
+        groups: 6
+      - name: MUM_VILLAGE_NE01
+        width: 10
+        length: 10
+        groups: 6
+      - name: MUM_VILLAGE_NW00
+        width: 10
+        length: 10
+        groups: 5
+      - name: MUM_VILLAGE_NW01
+        width: 10
+        length: 10
+        groups: 5
+      - name: MUM_VILLAGE_N_SHORT00
+        width: 10
+        length: 10
+        groups: 10
+      - name: MUM_VILLAGE_N_SHORT01
+        width: 10
+        length: 10
+        groups: 10
+      - name: MUM_VILLAGE_S00
+        width: 20
+        length: 10
+        groups: 3
+      - name: MUM_VILLAGE_SE00
+        width: 10
+        length: 10
+        groups: 7
+      - name: MUM_VILLAGE_SW00
+        width: 10
+        length: 10
+        groups: 8
+      - name: MUM_VILLAGE_SW01
+        width: 10
+        length: 10
+        groups: 8
+      - name: MUM_VILLAGE_S_SHORT00
+        width: 10
+        length: 10
+        groups: 3
+      - name: MUM_VILLAGE_W00
+        width: 10
+        length: 20
+        groups: 4
+      - name: MUM_VILLAGE_W_SHORT00
+        width: 10
+        length: 10
+        groups: 4
+      - name: MUM_VILLAGE_W_SHORT03
+        width: 10
+        length: 10
+        groups: 4
+      - name: UAC_CAVE_W01
+        width: 10
+        length: 20
+        groups: 4
+      - name: UAC_CAVE_W02
+        width: 10
+        length: 20
+        groups: 4
+      - name: UAC_CAVE_W03
+        width: 10
+        length: 20
+        groups: 4
+      - name: UAC_CAVE_W04
+        width: 10
+        length: 20
+        groups: 4
+      - name: UAC_CAVE_W_SHORT01
+        width: 10
+        length: 10
+        groups: 4
+      - name: UAC_CAVE_W_SHORT02
+        width: 10
+        length: 10
+        groups: 4
+      - name: UAC_CAVE_ENTRY # S edge with the lift
+        width: 60
+        length: 20
+        groups: 9
+        items:
+          STR_UAC_CODE_BOOK:
+            - [20, 10, 1]
+          STR_UAC_BFG:
+            - [21, 5, 2]
+          STR_UAC_BFG_BATTERY:
+            - [21, 5, 2]
+            - [21, 5, 2]
+            - [21, 5, 2]
+            - [21, 5, 2]
   - name: REPTOID_CAVE_SETTLEMENT
     mapDataSets:
       - BLANKS
@@ -6529,6 +6800,71 @@
             - [6, 4, 3]
         fuseTimers:
           STR_SPAWN_ZSRR_ARMORED_CAR: [0, 0]
+  - name: DARKSTORMMOUNTAIN_ALPHA
+    mapDataSets:
+      - BLANKS
+      - ASHENMOUNT
+      - SIBERIABASE_DARK
+      - STORMMOUNT
+    script: DARKSTORMMOUNTAIN_ALPHA
+    mapBlocks:
+      - name: STORMMOUNTAIN00
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN01
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN02
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN03
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN04
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN05
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN06
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN07
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN08
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN09
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN10
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN11
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN12
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN13
+        width: 10
+        length: 10
+      - name: STORMMOUNTAIN14
+        width: 10
+        length: 10
+        groups: 5
+        items:
+          STR_SPAWN_DR_ALPHA:
+            - [6, 2, 1]
+        fuseTimers:
+          STR_SPAWN_DR_ALPHA: [0, 0]
+      - name: STORMMOUNTAIN15
+        width: 20
+        length: 20
+      - name: STORMMOUNTAIN16
+        width: 10
+        length: 10
   - name: COLDISLE
     mapDataSets:
       - BLANKS
@@ -7109,7 +7445,28 @@
       - name: LINERT01
         width: 30
         length: 50
-  - name: HADRIEX_CRUISE_LINER
+  - name: CRUISE_LINER_SMALL
+    mapDataSets:
+      - BLANKS
+      - SEAURBAN
+      - LINERSHIPA
+      - LINERSHIPB
+      - LINERSHIPC
+      - LINERSHIPD
+      - DECKSHIPC
+      - LIFTER
+      - BATHBITZ_HT
+    civilianTypes:
+      - STR_MALE_SAILOR
+    script: CRUISE_LINER_SMALL
+    mapBlocks:
+      - name: LINERTS00
+        width: 30
+        length: 20
+      - name: LINERTS01
+        width: 30
+        length: 40
+  - name: HADRIEX_CRUISE_LINER_SMALL
     civilianTypes:
       - STR_MALE_MARINE_OFFICER
       - STR_MALE_SAILOR
@@ -7123,30 +7480,30 @@
       - DECKSHIPC
       - LIFTER
       - BATHBITZ_HT
-    script: CRUISE_LINER
+    script: CRUISE_LINER_SMALL
     mapBlocks:
-      - name: LINERT00
+      - name: LINERTS00
         width: 30
         length: 20
         items:
           STR_SPAWN_ANCIENT_SEA_GHOST:
-            - [16, 3, 4]
-            - [18, 3, 4]
-            - [13, 4, 4]
+            - [17, 1, 4]
+            - [18, 5, 3]
+            - [18, 7, 2]
         fuseTimers:
           STR_SPAWN_ANCIENT_SEA_GHOST: [0, 0]
-      - name: LINERT01
+      - name: LINERTS01
         width: 30
-        length: 50
+        length: 40
         items:
           STR_SPAWN_DR_HADRIEX:
-            - [16, 49, 2]
+            - [16, 39, 2]
           STR_SPAWN_ANCIENT_SEA_GHOST:
-            - [15, 33, 6]
-            - [15, 25, 8]
-            - [17, 8, 3]
-            - [6, 14, 3]
-            - [24, 37, 3]
+            - [14, 28, 5]
+            - [19, 34, 5]
+            - [23, 33, 4]
+            - [11, 39, 3]
+            - [14, 31, 2]
         fuseTimers:
           STR_SPAWN_DR_HADRIEX: [0, 0]
           STR_SPAWN_ANCIENT_SEA_GHOST: [0, 0]
@@ -7197,6 +7554,55 @@
               amount: 3
               mixed: false
               itemList: &rareOsironWares [STR_ALIEN_ELECTRONICS, STR_XCOM_FLYING_DRONE, STR_MILITARY_COMPUTER]
+  - name: OSIRON_CRUISE_LINER_SMALL
+    mapDataSets:
+      - BLANKS
+      - SEAURBAN
+      - LINERSHIPA
+      - LINERSHIPB
+      - LINERSHIPC
+      - LINERSHIPD
+      - DECKSHIPC
+      - LIFTER
+      - BATHBITZ_HT
+    civilianTypes:
+      - STR_MALE_SAILOR
+    script: CRUISE_LINER_SMALL
+    mapBlocks:
+      - name: LINERTS00
+        width: 30
+        length: 20
+        items:
+          STR_GOOD_OSIRON_CRATE:
+            - [14, 5, 2]
+            - [14, 8, 2]
+            - [13, 7, 2]
+            - [20, 5, 2]
+      - name: LINERTS01
+        width: 30
+        length: 40
+        items:
+          STR_GOOD_OSIRON_CRATE:
+            - [14, 25, 0]
+            - [14, 26, 0]
+            - [13, 34, 0]
+            - [7, 34, 0]
+            - [24, 27, 0]
+            - [13, 35, 1]
+            - [17, 34, 1]
+            - [12, 38, 1]
+            - [6, 37, 1]
+            - [23, 36, 1]
+            - [19, 34, 1]
+            - [13, 36, 1]
+            - [8, 39, 1]
+            - [22, 32, 2]
+            - [20, 38, 2]
+        randomizedItems:
+            - position: [18, 28, 0]
+              amount: 3
+              mixed: false
+              itemList: *rareOsironWares
   - name: MARINEBASE
     civilianTypes:
       - STR_MALE_MARINE_OFFICER
@@ -7394,6 +7800,71 @@
         width: 20
         length: 20
     script: DESERT
+  - name: MOON_UAC
+    mapDataSets:
+      - BLANKS
+      - MOON_FINNIK
+      - UAC_WALL02
+      - UAC_FRN
+      - XCOMEXIT
+    script: MOON_UAC
+    mapBlocks:
+      - name: MARS00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MARS01
+        width: 10
+        length: 10
+      - name: MARS02
+        width: 10
+        length: 10
+      - name: MARS03
+        width: 10
+        length: 10
+      - name: MARS04
+        width: 10
+        length: 10
+      - name: MARS05
+        width: 10
+        length: 10
+      - name: MARS06
+        width: 10
+        length: 10
+      - name: MOON00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MOON00_1
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MOON00_2
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MOON01
+        width: 10
+        length: 10
+      - name: MOON02
+        width: 10
+        length: 10
+      - name: MOON03
+        width: 20
+        length: 20
+      - name: MOON04
+        width: 20
+        length: 20
+      - name: MOON05
+        width: 20
+        length: 20
+      - name: MOON06
+        width: 20
+        length: 20
+      - name: MARS_UACENTRY
+        width: 10
+        length: 10
+        groups: 2
   - name: UTUNNEL
     mapDataSets:
       - BLANKS

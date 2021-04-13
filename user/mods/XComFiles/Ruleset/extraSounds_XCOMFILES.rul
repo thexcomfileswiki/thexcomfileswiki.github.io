@@ -130,11 +130,13 @@
       216: Resources/Weapons_Compilation/WeaponSounds/LaserCannonFire.wav
       217: Resources/Weapons_Compilation/WeaponSounds/LaserCannonHit.wav
       218: Resources/Weapons_Compilation/WeaponSounds/small_explosion.wav
+      219: Resources/Weapons_Compilation/WeaponSounds/DSBFG.wav
       220: Resources/Weapons_Compilation/WeaponSounds/CannonHit.wav
       221: Resources/Weapons_Compilation/WeaponSounds/SonicShotgun.wav
       222: Resources/Weapons_Compilation/WeaponSounds/SonicShotgunFocused.wav
       223: Resources/Weapons_Compilation/WeaponSounds/SonicHeavyCannon.wav
       224: Resources/Weapons_Compilation/WeaponSounds/SonicHeavyCannonFocused.wav
+      225: Resources/Weapons_Compilation/WeaponSounds/Ex_Hueg.wav
       243: Resources/CiviliansPack/Animals/Kudah.wav
       244: Resources/CiviliansPack/Animals/Mee.wav
       245: Resources/CiviliansPack/Animals/Hr-Hr-Hr.wav
@@ -201,9 +203,15 @@
       600: Resources/CiviliansPack/Specialists/scientist_scream.wav
       601: Resources/FactionsPack/Hybrids/gertrude.wav
       610: Resources/Races_Compilation/DeepOneRace/DepOne_death.wav
-      666: Resources/FactionsPack/CultOfApocalypse/Imp_Fireball.wav
-      667: Resources/FactionsPack/CultOfApocalypse/Imp_Death1.wav
-      668: Resources/FactionsPack/CultOfApocalypse/Imp_Death2.wav
+      666: Resources/Races_Compilation/DemonRace/Imp_Fireball.wav
+      667: Resources/Races_Compilation/DemonRace/Imp_Death1.wav
+      668: Resources/Races_Compilation/DemonRace/Imp_Death2.wav
+      669: Resources/Races_Compilation/DemonRace/Demon_Aggro.wav
+      670: Resources/Races_Compilation/DemonRace/Demon_Attack.wav
+      671: Resources/Races_Compilation/DemonRace/Demon_Death.wav
+      672: Resources/Races_Compilation/DemonRace/HellBaron_Aggro.wav
+      673: Resources/Races_Compilation/DemonRace/HellBaron_Fire.wav
+      674: Resources/Races_Compilation/DemonRace/HellBaron_Death.wav
       680: Resources/Doge/DogeDeath2.wav
       681: Resources/Doge/DogeDeath3.wav
       685: Resources/Doge/DogeAttack2.wav

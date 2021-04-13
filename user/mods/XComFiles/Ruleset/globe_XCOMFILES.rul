@@ -1101,6 +1101,9 @@
     - id: -1902
       deployments:
         STR_UAC_OFFICE: 100
+    - id: -1903
+      deployments:
+        STR_UAC_SPACE_LAB_SURFACE: 100
     - id: -2000
       deployments:
         STR_CROC_RAID_TEMPERATE: 100
@@ -1119,6 +1122,9 @@
     - id: -2210
       deployments:
         STR_DR_HADRIEX_CRUISE: 100
+    - id: -2220
+      deployments:
+        STR_DR_ALPHA_ISLAND: 100
     - id: -3000
       deployments:
         STR_DREAMSCAPE_VILLA: 100
@@ -1128,6 +1134,9 @@
     - id: -4000
       deployments:
         STR_MOON_MAGMA_RESCUE: 100
+    - id: -4005
+      deployments:
+        STR_MOON_UAC_BASE_LANDING: 100
     - id: -4010
       deployments:
         STR_MOON_HYPERWAVE_RELAY: 100
